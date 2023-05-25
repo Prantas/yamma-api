@@ -20,3 +20,13 @@ Build the images:
 
 Run compose:
 `docker compose up -d`
+
+### Debugging with XDebug
+
+The .vscode/launch.json provided will provide you with the "Listen for
+XDebug on Docker" option in the debugger menu.
+
+You need to have the PHP Debug extension installed in VS Code too.
+
+For the debugger to work, you must include the `?XDEBUG_SESSION=1` as
+a url param.
