@@ -26,7 +26,15 @@ Run compose:
 The .vscode/launch.json provided will provide you with the "Listen for
 XDebug on Docker" option in the debugger menu.
 
-You need to have the PHP Debug extension installed in VS Code too.
+You need to have the following Extensions installed in VS Code too:
+
+* [PHP Debug][1]
+* [PHP Tools][2]
+
+Also, make sure that on your environment `XDEBUG_MODE` is set to `debug`
 
 For the debugger to work, you must include the `?XDEBUG_SESSION=1` as
 a url param.
+
+[1](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
+[2](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode)
